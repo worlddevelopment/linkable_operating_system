@@ -9,6 +9,12 @@ Other than an overview schematic this is a mere collection of required modules a
 
 
 
+High level overview
+---
+<img src="high_level_overview.jpg" alt="high level overview"/>
+
+
+
 Dependencies
 ---
 see <a href="local.xml">local.xml</a>
@@ -38,12 +44,6 @@ all those actions inherited from assigned modules and their corresponding attach
 Technologies used
 ---
 (none) Difficult because knowledge for its operation is required which is pretty high level. Knowledge about construction is available in the corresponding used modules | dependencies.
-
-
-
-High level overview
----
-<img src="high_level_overview.jpg" alt="high level overview"/>
 
 
 
