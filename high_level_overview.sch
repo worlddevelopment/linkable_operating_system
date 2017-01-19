@@ -404,13 +404,13 @@ AA 15 BB BB 8A D5 06 55 95 10 4F A7 3B BB 23 03 F8 2F CC 40 7E 4D A1 52 DC A2 6D
 39 8C B5 E0 8D E5 7E 2F C0 4C 79 03 3E AF BD AA A2 AA 8E 21 2E 44 60 48 F1 64 8C B6 1E 73 96 E2 
 55 8D F3 75 A5 51 55 45 96 0B D1 78 26 A3 18 B3 4B 18 1A 4F 9F 2A 84 AA 4E 48 21 15 55 F0 C7 31 
 F6 51 AB 71 E8 3A 57 1D 50 D5 45 16 18 BB AB C9 98 73 AE 8E 60 A6 C4 07 2B B5 46 57 10 FF 1F 84 
-B5 E1 8B C6 1F A9 67 00 00 00 00 49 45 4E 44 AE 42 60 82 4F 
+B5 E1 8B C6 1F A9 67 00 00 00 00 49 45 4E 44 AE 42 60 82 B2 
 EndData
 $EndBitmap
 $Sheet
-S 4900 3600 2000 200 
+S 4800 3600 2000 200 
 U 586BFA55
-F0 "automata, trailors" 50
+F0 "automata,trailer,multirotor" 50
 F1 "machines.sch" 50
 $EndSheet
 Text Notes 1200 1800 0    60   ~ 0
@@ -447,8 +447,8 @@ Text Notes 3950 3800 0    60   ~ 0
 claim, wait, then:
 Text Notes 3200 4750 0    60   ~ 0
 maintain
-Text Notes 5050 3750 0    60   ~ 0
-execute: achieve goal autonomously
+Text Notes 4850 3750 0    60   ~ 0
+execute tasks: achieve goal autonomously
 Text Notes 2750 4200 0    60   ~ 0
 each task with status, state, goal, reason
 Text Notes 3700 6200 0    60   ~ 0
@@ -463,7 +463,7 @@ Text Notes 6950 3700 0    60   ~ 0
 m_operator_machines
 Text Notes 3950 3900 0    60   ~ 0
 check assignment
-Text Notes 3550 3650 0    51   ~ 0
+Text Notes 3500 3650 0    51   ~ 0
 maintain: pull, filter, analyze diff,\n          rebase, update, push
 Text Notes 1150 3550 0    60   ~ 0
 forward data of machine sensors
@@ -688,7 +688,7 @@ Wire Notes Line
 Wire Notes Line
 	3700 4200 3750 4250
 Wire Notes Line
-	4900 3700 3700 3700
+	4800 3700 3700 3700
 Wire Notes Line
 	3700 3700 3700 3950
 Wire Notes Line
@@ -712,7 +712,7 @@ Wire Notes Line
 Wire Notes Line
 	7300 4500 7250 4550
 Wire Notes Line
-	3800 3800 4900 3800
+	3800 3800 4800 3800
 Wire Notes Line
 	3800 3800 3800 3950
 Wire Notes Line
@@ -720,7 +720,7 @@ Wire Notes Line
 Wire Notes Line
 	3800 3950 3850 3900
 Wire Notes Line
-	4900 3600 3600 3600
+	4800 3600 3600 3600
 Wire Notes Line
 	3600 3600 3600 3950
 Wire Notes Line
@@ -755,10 +755,6 @@ Wire Notes Line
 	5000 4800 4950 4750
 Wire Notes Line
 	5000 4800 4950 4850
-Wire Notes Line
-	3800 4350 3750 4300
-Wire Notes Line
-	3800 4350 3850 4300
 Connection ~ 5050 4800
 Wire Notes Line
 	3150 4800 5050 4800
@@ -821,7 +817,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4500 7300 4500
 Wire Wire Line
-	7150 3800 6900 3800
+	7150 3800 6800 3800
 Wire Wire Line
 	10550 3050 10550 3350
 Wire Wire Line
@@ -855,9 +851,9 @@ Wire Wire Line
 Wire Wire Line
 	850  4800 1150 4800
 Wire Wire Line
-	5950 3600 5950 3450
+	5050 3600 5050 3450
 Wire Wire Line
-	5950 3450 1100 3450
+	5050 3450 1100 3450
 Wire Wire Line
 	1100 3450 1100 4600
 Wire Wire Line
@@ -879,7 +875,7 @@ Wire Notes Line
 Wire Notes Line
 	7350 3450 7350 3600
 Wire Notes Line
-	7350 3600 6900 3600
+	7350 3600 6800 3600
 Text Notes 1150 2550 0    60   ~ 12
 when not fully isolated\ne.g. using transformer
 $EndSCHEMATC
