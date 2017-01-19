@@ -880,4 +880,6 @@ Wire Notes Line
 	7350 3450 7350 3600
 Wire Notes Line
 	7350 3600 6900 3600
+Text Notes 1150 2550 0    60   ~ 12
+when not fully isolated\ne.g. using transformer
 $EndSCHEMATC
